@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Widget;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,12 +15,14 @@ namespace Linoleum
 			InitializeComponent();
 
 			MainPage = new Linoleum.MainPage();
-		}
+            
+
+        }
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
-		}
+            // Handle when your app starts
+        }
 
 		protected override void OnSleep ()
 		{

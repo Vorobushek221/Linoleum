@@ -21,7 +21,7 @@ namespace Linoleum.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new Linoleum.App ());
-		}
+        }
 	}
 }
 

@@ -12,6 +12,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Byn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BynStringFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\LinoleumRoll.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
