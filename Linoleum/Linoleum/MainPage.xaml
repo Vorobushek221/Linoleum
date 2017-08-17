@@ -4,14 +4,23 @@
              xmlns:local="clr-namespace:Linoleum"
              x:Class="Linoleum.MainPage">
 
-    <ListView x:Name="listView" RowHeight="80">
+    <ListView 
+        x:Name="listView" 
+        RowHeight="80">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="Icon.png" Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" />
-                        <Label Text="{Binding Name}" />
-                        <Label Text="{Binding Width}" />
+                    <StackLayout 
+                        Orientation="Horizontal">
+                        <Image 
+                            Source="Icon.png" 
+                            Aspect="AspectFit" 
+                            HorizontalOptions="StartAndExpand" 
+                            VerticalOptions="FillAndExpand" />
+                        <Label 
+                            Text="{Binding Name}" />
+                        <Label 
+                            Text="{Binding Width}" />
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

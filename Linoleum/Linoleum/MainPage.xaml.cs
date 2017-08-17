@@ -24,6 +24,12 @@ namespace Linoleum
 
             listView.ItemsSource = linoleums;
 
+            listView.ItemSelected += (sender, e) =>
+            {
+                ((ListView)sender).SelectedItem = null;
+            };
         }
+
+
 	}
 }
